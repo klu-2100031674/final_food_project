@@ -136,8 +136,8 @@ STATICFILES_DIRS = [
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 EMAIL_HOST='smtp.office365.com'
-EMAIL_HOST_USER='2100031661@kluniversity.in'
-EMAIL_HOST_PASSWORD='pravarshith@2004'
+EMAIL_HOST_USER='xxxxxxxxx'
+EMAIL_HOST_PASSWORD='xxxxxxxxx'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
