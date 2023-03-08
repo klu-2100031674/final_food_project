@@ -1,0 +1,119 @@
+.title{
+    margin-left: -200px;
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ff7700,#ff0b17);
+    margin-bottom: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 31px;
+    margin-right: 31px;
+    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content:left;
+    border-radius: 10px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+	z-index: 2;
+}
+.add-to-cart{
+    text-decoration: none;
+    padding: 5px;
+    background:linear-gradient(to right,#ff7700,#ff0b17);
+    color: rgb(255, 246, 246);
+    border-radius: 8px;
+    margin-left:300px;
+    margin-bottom: 20px;
+}
+.card_img{
+    height: 250px;
+    width: 350px;
+}
+
+.card_title{
+    position: absolute;
+    font-family: cursive;
+    font-weight:900;
+    font-size: 15px;
+    color: gray;
+}
+
+.bottom-bar{
+    position: absolute;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: rgb(27, 24, 24);
+    width: 100%;
+    height: 40%;
+}
+.bottom-bar h1{
+    margin-left:7%;
+    color: white;
+}
+.about-still-hungry{
+    margin-top:2%;
+    margin-left: 10%;
+}
+.about-still-hungry h5{
+color: #f3f1f1;
+}
+.about-still-hungry a{
+    text-decoration: none;
+}
+.about-still-hungry h6{
+    color: #f3f1f1;
+}
+.hungryverse{
+    margin-top:-13% ;
+    margin-left:30%; ;
+}
+.hungryverse h5{
+    color: #f3f1f1;
+}
+.hungryverse a{
+    text-decoration: none;
+}
+.hungryverse h6{
+    color: #f3f1f1;
+}
+.for-restarunts{
+    margin-top:-9.3% ;
+    margin-left:50%; ;
+}
+.for-restarunts h5{
+    color: #f3f1f1;
+}
+.for-restarunts a{
+    text-decoration: none;
+}
+.for-restarunts h6{ 
+    color: #f3f1f1;
+}
+.Learn-more{
+    margin-top:-7.6% ;
+    margin-left:70%; ;
+}
+.Learn-more h5{
+    color: #f3f1f1;
+}
+.Learn-more a {
+    text-decoration: none;
+}
+.Learn-more a h6{
+    color: #f3f1f1;
+}

@@ -1,0 +1,45 @@
+<title>Login Form </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+<body>
+<div class ="Home">
+    <div class="back-text">
+    <h1>Delicious</h1>
+    <h1 class="sub-text">Quench the Hunger</h1>
+    <div class="sub-para-box"><p class="sub-para">A recipe has no soul. You, as the cook, must bring soul to the recipe.</p></div>
+    
+</div>
+    <div class="form">
+           <h2 >Login into Your Account</h2>
+        <div class ="social-icon">
+            <img src="{% static 'images/facebookicon.png' %}">
+            <img src="{% static 'images/instaicon.png' %}">
+            <img src="{% static 'images/twittericon.png' %}">
+        </div>
+        <form method="POST" action="">
+            {% csrf_token %}
+            <p>Username</p>
+            <input type="text" name="username" placeholder="User Name" class="input-field">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="password" class="input-field">
+            {% for i in messages %}
+            <p id="messages">{{i}}</p>
+            {% endfor %}
+
+            <div class="mt-4">
+                <div class="d-flex justify-content-center links">
+                    Don't have an account? <a href="{% url 'register' %}" class="ml-2">Sign Up</a>
+                    <div>
+                        <div class="d-flex justify-content-center links">
+
+                        </div>
+                    </div>
+                </div>
+                <a href="{% url 'home' %}"><button type="submit">Login</button></a>
+
+
+        </form>
+    </div>
+</div>
+</script>
+</body>

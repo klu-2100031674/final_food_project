@@ -1,0 +1,118 @@
+    .Home{
+        height: 100%;
+        width: 40%;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+    }
+    .back-text{
+        position: relative;
+        left: 10%;
+        top: 30%;
+        color:#ff7700;
+        text-shadow: 2px 2px 2px black;
+        font-size: 40px;
+    }
+    .back-text .sub-text{
+         font-size: 30px;
+         color: white; 
+    }
+    .sub-para{
+        font-size: 20px;
+        width: 170px;
+        color: white;
+    }
+    .form{
+        box-shadow:2px 2px 2px 2px rgba(0,0,0,.6);
+        width: 400px;
+        height: 450px;
+        position: relative;
+        left: 55%;
+        top: 20%;
+        background: #fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    h2{
+        margin: 30px;
+        text-align: center;
+        height: 20px;
+        font-family: Garamond, serif;
+    }
+    .social-icon{
+        top: 20px;
+        margin: 300px auto;
+        text-align: center;
+        position: relative;
+    }
+    .social-icon img{
+        width: 30px;
+        margin: 0 12px;
+        box-shadow:0 0 20px 0 #7f7f7f3d ;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .input-group{
+        top: 130px;
+        position: absolute;
+        width: 280px;
+        transition: .5c;
+    }
+    .input-field{
+        width: 100%;
+        padding: 10px 0;
+        margin: 5px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #999;
+        outline:  none;
+        background: transparent;
+    
+    }
+    .submit-bnt{
+        width: 85%;
+        padding: 10px 30px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        background:linear-gradient(to right,#ff7700,#ff0b17);
+        border: 0;
+        outline: none;
+        border-radius: 30px;
+    
+    }
+    .register-bnt{
+    text-decoration: none;
+        color: blue;
+        height: 10px;
+        width:20px;
+        background: transparent;
+        border: transparent;
+        cursor: pointer;
+        margin:30px;
+        left: 50%;
+        position: relative;
+    }
+    .check-box{
+        margin:30px 10px 30px 0;;
+    }
+    span{
+    bottom:65px;
+    color: #777;
+    font-size:12px;
+    position: absolute;
+}
+.forget-password{
+    position: absolute;
+    bottom: -10px;
+}
+    #login{
+        left: 10%;
+    }
+    .side-img{
+        background-color: black;
+        width: 90px;
+        height: 90px;
+    }

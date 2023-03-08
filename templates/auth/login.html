@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login Form </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/auth/style1.css' %}">
+</head>
+<body>
+<div class ="Home">
+    <div class="back-text">
+    <h1>Delicious</h1>
+    <h1 class="sub-text">Quench the Hunger</h1>
+    <div class="sub-para-box"><p class="sub-para">A recipe has no soul. You, as the cook, must bring soul to the recipe.</p></div>
+   </div> 
+</div>
+    <div class="form">
+           <h2 >Login into Your Account</h2>
+           {% for message in messages %}
+          <div style="position:relative;width: 280;height: 30px;background-color: rgb(243 183 126 / 76%);border-color: black;border-radius: 5px;">
+           <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert" style="left:10px; color: red; position: relative; top: 5px;font-size: 15;">
+         <strong></strong>{{ message }}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+      </div>
+       {% endfor %}
+           <div class ="social-icon">
+            <img src="{% static 'images/facebookicon.png' %}">
+        <img src="{% static 'images/instaicon.png' %}">
+        <img src="{% static 'images/twittericon.png' %}">
+        </div>
+        <form id="login" action="/foodauth/login/"class="input-group" method="post">{% csrf_token %}
+            <input name="email" type="text" class="input-field" placeholder="Enter email" required>
+            <input name="password" type="password" class="input-field" placeholder="Password" required>
+            <input type="checkbox" class="check-box"><span> Remember password</span>
+            <a href="/foodauth/signup" class="register-bnt">Register</a>
+            <button type="submit" class="submit-bnt">Log in</button>
+            <div class="forget-password" style="height: 0px;font-family: arial;font-size:15;"> <h5>Forget Password? <a href="/foodauth/request-reset-email/">Click</a></h5></div>
+        </form>
+        <br>
+        {% for message in messages %}
+
+        <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
+      <strong></strong>{{ message }}
+     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% endfor %}
+    </div>
+</script>
+</body>
+</html>

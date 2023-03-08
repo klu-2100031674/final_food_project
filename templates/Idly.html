@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/idly.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+ <nav>
+        <div class="logo">
+            <img src="{% static 'images/logo1.jpeg' %}" width="100" height="80">
+        </div>
+        <ul>
+            <li><a href="http://localhost:8000/">HOME</a></li>
+            <li><a href="http://localhost:8000/simleycards">SMILEY CARD</a></li>
+            <li><a href="http://localhost:8000/todayspecial">TODAY'S SPECIAL</a></li>
+            <li><a href="http://localhost:8000/delivery">DELIVERY</a></li>
+            <li><a href="http://localhost:8000/celebrate">CELEBRATE</a></li><span class="space"></span>
+            <li class="login"><a href="">LOGIN</a></li>
+            <li class="register"><a href="#">SIGN UP</a></li>
+            <div class="cart">
+                <img src="{% static 'images/shopping-cart.png' %}" width="30" height="30">
+            </div>
+        </ul>
+    </nav>
+    <div class="Idly">
+        <div class="mdosaimg"><img src="{% static 'images/idli.jpg' %}" style="height: 400px;px; width: 500px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; border-radius:10px;"></div>
+        <div class="details">
+            <h1>IDLI</h1>
+            <div class="hrating">4 &#9733</div>
+            <div class="rating-count">16,899 Ratings & 666 Rewis</div>
+            <div class="prise">Extra &#8377 20 off:</div>
+            <div class="prise1">&#8377 20</div>
+            <div class="off-rate"><s>&#8377 40</s></div>
+            <div class="present-off">50% off</div>
+            <div class="delivery-charge">+15 Delivey Charge</div>
+            <div class="offers">Available offers</div>
+            <div class="offers-on-food">Extra 10% off on buying 3 item</div>
+            <img src="{% static 'images/offer-tag.png' %}"style="margin-left: 660px; margin-top:245px; height: 20px; width: 20px;">
+            <div class="offers-on-food1">Extra 10% using Dosa10 code</div>
+            <img src="{% static 'images/offer-tag.png' %}"style="position: absolute; margin-left:-20px; margin-top:270px; height:20px; width: 20px;">
+            <div class="offers-on-food2">Extra 10% off on online payment</div>
+            <img src="{% static 'images/offer-tag.png' %}"style="position: absolute; margin-left:-20px; margin-top:290px; height: 20px; width: 20px;">
+            <div class="offers-on-food3">Extra 10% off on Delivery Charge using online payment</div>
+            <img src="{% static 'images/offer-tag.png' %}"style="position: absolute; margin-left:-20px; margin-top:315px; height: 20px; width: 20px;">
+            <a href="#" class="buynow" style="text-decoration:none; list-style:none;">BUY NOW</a>
+            <a href="#" class="add-to-cart"style="text-decoration:none; list-style:none;">ADD TO CART</a>
+            <div class="dis1">
+                <div class="discription">Discription:</div>
+                <div class="dis-matter">Idli or idly is a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka. The cakes are made by steaming a batter consisting of fermented black lentils (de-husked) and rice.</div>
+            </div>
+        </div>
+      </div>
+        <div class="customer-rating">
+            <div class="crating"><h5>Ratings & Reviews</h5>
+                <div class="rating-postion">
+                    <div class="rating-stars">4 &#9733</div>
+                    <div class="rating-stars1">16,899 Rating</div>
+                    <div class="rating-stars2">&</div>
+                    <div class="rating-stars3">666 Rewis</div>
+                    <div class="row">
+                        <div class="side">
+                          <div>5 star</div>
+                        </div>
+                        <div class="middle">
+                          <div class="bar-container">
+                            <div class="bar-5"></div>
+                          </div>
+                        </div>
+                        <div class="side right">
+                          <div>11000</div>
+                        </div>
+                        <div class="side">
+                          <div>4 star</div>
+                        </div>
+                        <div class="middle">
+                          <div class="bar-container">
+                            <div class="bar-4"></div>
+                          </div>
+                        </div>
+                        <div class="side right">
+                          <div>3000</div>
+                        </div>
+                        <div class="side">
+                          <div>3 star</div>
+                        </div>
+                        <div class="middle">
+                          <div class="bar-container">
+                            <div class="bar-3"></div>
+                          </div>
+                        </div>
+                        <div class="side right">
+                          <div>2000</div>
+                        </div>
+                        <div class="side">
+                          <div>2 star</div>
+                        </div>
+                        <div class="middle">
+                          <div class="bar-container">
+                            <div class="bar-2"></div>
+                          </div>
+                        </div>
+                        <div class="side right">
+                          <div>6</div>
+                        </div>
+                        <div class="side">
+                          <div>1 star</div>
+                        </div>
+                        <div class="middle">
+                          <div class="bar-container">
+                            <div class="bar-1"></div>
+                          </div>
+                        </div>
+                        <div class="side right">
+                          <div>20</div>
+                </div>
+            </div>
+        </div>
+        <div class="Feed-Back">
+          <h3>FeedBacks</h3>
+          <div class="input">Ramesh:
+            <div class="rinput">It is so delious. i feel it is very good thanks too still hungyr</div>
+          </div>
+          <div class="input">Ramesh:
+            <div class="rinput">It is so delious. i feel it is very good thanks too still hungyr</div>
+          </div>
+          <div class="viewmore"><a href="">View More</a></div>
+        </div>
+        
+    </div>
+</body>
+</html>

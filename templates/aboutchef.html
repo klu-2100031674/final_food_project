@@ -1,0 +1,37 @@
+{% extends 'base.html'%}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/aboutchef.css' %}">
+    <div class="title1">Chef james</div>
+    <div class="title2">Chef Darryl</div>
+    <div class="title3">Chef Greg</div>
+    <div class="doodle">
+        <div class="title" style="position:relative;top:-50px;color: #ff4e00;">About our Chefs</div>
+    </div>
+
+        <div class="chef1">
+            <img src="{% static 'images/paneer tikka.jpg' %}">
+            <div class="content">
+                <p>Chef James has lent his creative touch to many restaurants in his native Seattle, as well as San Francisco. In San Francisco he worked several positions at Jardinière and then went on to take the sous chef position at the two Michelin-starred seafood restaurant, Aqua. In Seattle, he worked with Jason Wilson at Crush. He then served as chef de cuisine at Restaurant Zoë and executive chef at Re:public and Single Shot. In 2014 he was presented a Rising Star Chef award by Seattle Met Magazine. James is now chef owner of Lovely Night Catering.</p>
+            </div>
+        </div>
+    
+        <div class="chef2">
+            <img src="{% static 'images/paneer tikka.jpg' %}">
+            <div class="content">
+                <p>Irish chef, Darryl, bought over Chefs Compliments in 2014 and brought the company to the next level. Passionate about local fresh, high quality ingredients, Darryl has been cooking professionally for nearly 15 years. He’s worked alongside many famous chefs in 1 and 2 Michelin-starred restaurants, including Chris Galvin and Marcus Wareing where he picked up many of the skills and techniques which are part of his kitchen repertoire today.
+                    As well as running pop-up restaurants, he has a lot of experience teaching cookery, running big events and loves sharing his vast knowledge of modern British and French cuisines.</p>
+            </div>
+        </div>
+
+        <div class="chef3">
+            <img src="{% static 'images/paneer tikka.jpg' %}">
+            <div class="content">
+                <p>Chef Greg has been cooking now for 23 years, starting at the Connaught hotel, on their 5 year apprenticeship scheme. This formed a very solid backbone to his career, giving Greg a thorough grounding in classical French and traditional English cooking, along with a solid skill base in butchery and fish preparation. Over the next few years he gained knowledge of modern British and European food, along with Asian Influences. 
+
+                    Whilst at the French Laundry, Greg was Introduced to Sous Vide cooking, and upon his return to the UK, Greg  learnt as much about this method of cooking as I could. It’s benefits, the safety aspect of cooking at such low temperature, and in most cases the superb results that could be achieved. 
+                    
+                    Over time and through research Greg developed a great repertoire of dishes,ranging from meat, fish, vegetables and desserts, and the consistent results that this method achieved, meant that he could really push the boundaries when it came to large volume dining at a very high level. More recently, Greg has been focusing on healthy dining, low carbohydrate and macrobiotic diets.</p>
+            </div>
+        </div>
+        {% endblock %}

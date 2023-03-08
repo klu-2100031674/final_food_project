@@ -1,0 +1,395 @@
+nav{
+    width: 100%;
+    height: 75px;
+    background:linear-gradient(to right,#ff7700,#ff4800);
+    box-shadow: 0 2px 2px  rgba(0,0,0,.4);
+}
+nav ul {
+    margin-left: 15%;
+    left: auto;
+    display: inline-flex;
+    position: relative;
+    list-style:none;
+    bottom: 70px;
+}
+nav ul li{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+nav ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family:italic;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+.logo{
+    padding-left: 80px;
+}
+
+.space{
+    position: relative;
+    left: 20%;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+.title{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.food img{
+    padding-left: 600px;
+    padding-top: 100px;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+
+.hotel1 img{
+    height: 500px;
+    width: 100%;
+}
+
+.myorders{
+    margin-top: -4px;
+    height: 150px;
+    background-color:#ffdab9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.deliveries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+
+   .box{
+    width: 250px;
+    transition: 0.5s;
+    margin-right: 27.5px;
+    margin-left: 27.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   }
+
+   .box a{
+    text-decoration: none;
+    color: black;
+    font-size: 22.5px;
+    font-family: Montserrat;
+    font-weight: bold;
+   }
+
+   .box a:hover{
+        text-decoration: none;
+        color: #ff7700;
+   }
+   .box img{
+    display: block;
+    width:250px;
+    height: 187.5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5px;
+   }
+   .box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+   }
+
+   .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    background-color: #bbb;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+  .OUR-SPECIALS{
+    background-color: rgba(177, 177, 200, 0.647);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    margin-left:35px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .sp-tit{
+    font-family: Montserrat;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 40px;
+    background-color: #ff7701;
+  }
+
+  .sp-cards{
+
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chef{
+    POSITION:ABSOLUTE;
+    height: 250px;
+    width: 250px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 125px;
+  }
+
+  .sp-cards1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sp-cards2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.spc1{
+  border-radius: 10px;
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 1px 1px gray;
+  font-family: Montserrat;
+}
+
+.spc11,.spc22{
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+}
+.spc1 p{
+  position: absolute;
+  margin-top: 200px;
+}
+
+.spc2 p{
+  position: absolute;
+  margin-top: 200px;
+}
+
+.spc2{
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+  width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  font-family: Montserrat;
+}
+
+.about-chefs{
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+
+.chef-photo{
+  background-color: orange;
+  width: 30%;
+}
+
+.imaaa{
+  height: 300px;
+  width: 100%;
+}
+
+.matter-link{
+  background-color: black;
+  width: 70%;
+}
+
+.matter-link h1{
+  font-family: Montserrat;
+  color: whitesmoke;
+  margin-left: 20px;
+
+}
+
+.matter-link p{
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  font-family: Montserrat;
+}
+
+.matter-link .learn-mores{
+    position: relative;
+    left: 700px;
+    top: 100px;
+    text-decoration: none;
+}
+
+.bottom-bar{
+  background-color: rgb(27, 24, 24);
+  margin-top: 20px;
+  width: 100%;
+  height: 315px;
+
+}
+.bottom-bar h1{
+  margin-left:7%;
+  color: white;
+}
+.about-still-hungry{
+  margin-top:2%;
+  margin-left: 10%;
+}
+.about-still-hungry h5{
+color: #f3f1f1;
+}
+.about-still-hungry a{
+  text-decoration: none;
+}
+.about-still-hungry h6{
+  color: #f3f1f1;
+}
+.hungryverse{
+  margin-top:-13% ;
+  margin-left:30%; ;
+}
+.hungryverse h5{
+  color: #f3f1f1;
+
+}
+.hungryverse a{
+  text-decoration: none;
+}
+.hungryverse h6{
+  color: #f3f1f1;
+}
+.for-restarunts{
+  margin-top:-9.3% ;
+  margin-left:50%; ;
+}
+.for-restarunts h5{
+  color: #f3f1f1;
+}
+.for-restarunts a{
+  text-decoration: none;
+}
+.for-restarunts h6{
+  color: #f3f1f1;
+}
+.Learn-more{
+  margin-top:-7.6% ;
+  margin-left:70%; ;
+}
+.Learn-more h5{
+  color: #f3f1f1;
+}
+.Learn-more a {
+  text-decoration: none;
+}
+.Learn-more a h6{
+
+  color: #f3f1f1;
+}

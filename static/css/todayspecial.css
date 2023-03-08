@@ -1,0 +1,496 @@
+.title{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family:Brush Script MT ;
+}
+.food img{
+    padding-left: 600px; 
+    padding-top: 100px;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+
+
+.image{
+    position: relative;
+    width: 400px;
+    left: 50px;
+    top: 100px;
+}
+
+.image__img{
+    display:block;
+    width: 100%;
+}
+
+.image__overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+
+.image__overlay:hover{
+    opacity: 3;
+}
+
+.image__overlay > *{
+    transform: translateY(100px);
+    transition: transform 0.5s;
+}
+.image__overlay:hover > *{
+    transform: translateY(0);
+}
+.image__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image_description{
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+
+.image__price{
+    font-size: 1.25em;
+}
+
+.image__button{
+    position: relative;
+    top: 78px;
+}
+
+/* kebabs */
+.image1{
+    position: relative;
+    width: 400px;
+    left: 500px;
+    top: -150px;
+}
+
+.image1__img{
+    display:block;
+    width: 100%;
+}
+
+.image1__overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+
+.image1__overlay:hover{
+    opacity: 1;
+}
+
+.image1__overlay > *{
+    transform: translateY(100px);
+    transition: transform 0.25s;
+}
+.image1__overlay:hover > *{
+    transform: translateY(0);
+}
+.image1__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image1_description{
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+
+.image1__price{
+    font-size: 1.25em;
+}
+
+.image1__button{
+    position: relative;
+    top: 78px;
+    background-color: transparent;
+}
+
+/*MUSHROOM CURRY*/
+.image2{
+    position: relative;
+    width: 400px;
+    left: 950px;
+    top: -400px;
+}
+
+.image2__img{
+    display:block;
+    width: 100%;
+}
+
+.image2__overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+
+.image2__overlay:hover{
+    opacity: 1;
+}
+
+.image2__overlay > *{
+    transform: translateY(100px);
+    transition: transform 0.25s;
+}
+.image2__overlay:hover > *{
+    transform: translateY(0);
+}
+.image2__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image2_description{
+    font-size: 1.25em;
+    margin-top: 2em;
+}
+
+.image2__price{
+    font-size: 1.25em;
+}
+
+.image2__button{
+    position: relative;
+    top: 78px;
+}
+
+
+/* LOADED BURGER */
+.image3{
+    position: relative;
+    width: 400px;
+    left: 50px;
+    top: -300px;
+}
+
+.image3__img{
+    display: block;
+    width: 100%;
+}
+
+.image3__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.image3__overlay:hover{
+    opacity: 3;
+}
+
+.image3__overlay > *{
+    transform: translate(100px);
+    transition: transform 0.5s;
+}
+
+.image3__overlay:hover > *{
+    transform: translateY(0);
+}
+
+.image3__title{
+    font-size: 2em;
+}
+
+.image3_description{
+    font-size: 1.25em;
+}
+
+.image3__price{
+    font-size: 1.25em;
+}
+
+.image3__button{
+    position: relative;
+    top: 75px;
+}
+
+
+/* SHAWARMA */
+
+.image4{
+    position: relative;
+    width: 400px;
+    left: 500px;
+    top: -550px;
+}
+
+.image4__img{
+    display: block;
+    width: 100%;
+}
+
+.image4__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0,0,0,0.6);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-family: cursive;
+}
+
+.image4__overlay:hover{
+    opacity: 3;
+}
+
+.image4__overlay > *{
+    transform: translate(100px);
+    transition: transform 0.5s;
+}
+
+.image4__overlay:hover > *{
+    transform: translateY(0);
+}
+
+.image4__title{
+    font-size: 2em;
+}
+
+.image4__description{
+    font-size: 1.25em;
+}
+
+.image4__price{
+    font-size: 1.25em;
+}
+
+.image4__button{
+    position: relative;
+    top: 75px;
+}
+
+/* SCHEZWAN PIZZA */
+
+.image5{
+    position: relative;
+    width: 400px;
+    left: 950px;
+    top: -800px;
+}
+
+.image5__img{
+    display: block;
+    width: 100%;
+}
+
+.image5__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0,0,0,0.6);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-family: cursive;
+}
+
+.image5__overlay:hover{
+    opacity: 3;
+}
+
+.image5__overlay > *{
+    transform: translate(100px);
+    transition: transform 0.5s;
+}
+
+.image5__overlay:hover > *{
+    transform: translateY(0);
+}
+
+.image5__title{
+    font-size: 2em;
+}
+
+.image5__description{
+    font-size: 1.25em;
+}
+
+.image5__price{
+    font-size: 1.25em;
+}
+
+.image5__button{
+    position: relative;
+    top: 75px;
+}
+
+/* CHOCLATE WAFFLE */
+
+.image6{
+    position: relative;
+    width: 400px;
+    left: 50px;
+    top: -700px;
+}
+
+.image6__img{
+    display: block;
+    width: 100%;
+}
+
+.image6__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0,0,0,0.6);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-family: cursive;
+}
+
+.image6__overlay:hover{
+    opacity: 3;
+}
+
+.image6__overlay > *{
+    transform: translate(100px);
+    transition: transform 0.5s;
+}
+
+.image6__overlay:hover > *{
+    transform: translateX(0);
+}
+
+.image6__title{
+    font-size: 2em;
+}
+
+.image6__description{
+    font-size: 1.25em;
+}
+
+.image6__price{
+    font-size: 1.25em;
+}
+
+.image6__button{
+    position: relative;
+    top: 75px;
+}
+
+/* DRAGON CHICKEN */
+
+.image7{
+    position: relative;
+    width: 400px;
+    left: 500px;
+    top: -950px;
+}
+
+.image7__img{
+    display: block;
+    width: 100%;
+}
+
+.image7__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0,0,0,0.6);
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-family: cursive;
+}
+
+.image7__overlay:hover{
+    opacity: 3;
+}
+
+.image7__overlay > *{
+    transform: translate(100px);
+    transition: transform 0.5s;
+}
+
+.image7__overlay:hover > *{
+    transform: translateX(0);
+}
+
+.image7__title{
+    font-size: 2em;
+}
+
+.image7__description{
+    font-size: 1.25em;
+}
+
+.image7__price{
+    font-size: 1.25em;
+}
+
+.image7__button{
+    position: relative;
+    top: 75px;
+}

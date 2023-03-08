@@ -1,0 +1,233 @@
+.card{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;    
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title1{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+/* LUNCH */
+
+.card1{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;    
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title2{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des1{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des1 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des1 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+/*DINNER*/
+
+.card2{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;    
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image2 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title3{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des2{
+    text-align: center;
+    padding: 10px;
+    font-family: lucida;
+}
+
+.des2 p{
+    font-family: lucida;
+}
+.des2 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des2 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+/*DINNER*/
+
+.card3{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;    
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image3 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title4{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des3{
+    text-align: center;
+    padding: 10px;
+}
+
+.des3 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des3 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}
+
+/* CAFE */
+
+.card4{
+    position: relative;
+    left: 35px;
+    top: 100px;
+    width: 25%;
+    display: inline-block;
+    background-color:#ffdab9 ;
+    border-radius: 10px;    
+    margin: 40px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image4 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title5{
+    text-align: center;
+    font-family: cursive;
+}
+
+.des4{
+    text-align: center;
+    padding: 10px;
+}
+
+.des4 a button{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.des4 a button:hover{
+    background-color: black;
+    color: #ff7700;
+    cursor: pointer;
+}

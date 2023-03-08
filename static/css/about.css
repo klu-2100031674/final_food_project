@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background:linear-gradient(to right,#ff7700,#ff4800); 
+    box-shadow: 0 2px 2px  rgba(0,0,0,.4);
+}
+nav ul {
+    left: 35%;
+    display: inline-flex;
+    position: relative;
+    list-style:none;
+    bottom: 70px;
+}
+nav ul li{
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+}
+nav ul li a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family:italic;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+.logo{
+    padding-left: 80px;
+}
+
+.space{
+    position: relative;
+    left: 20%;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+.title{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    font-family:Brush Script MT ;
+}
+.food img{
+    padding-left: 600px; 
+    padding-top: 100px;
+}
+.cart{
+    padding-left: 15px;
+    padding-top: 8px;
+    border-image-width: 10px;
+}
+
+.head1{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.image-section{
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+}
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin:auto ;
+}
+
+
+
+
+/*     */
+.content1{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content1 h3{
+    margin-top: 20px;
+}
+
+.content1 p{
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.connect{
+    padding-left: 50px;
+    padding-top: 80px;
+    font-family: cursive;
+}
+
+.contact{
+    padding-left: 50px;
+    padding-top: 40px;
+    font-family: cursive;
+}
